@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    background: #eee;
+    min-height: 200vh;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+img {
+    width: 300px;
+    height: 180px;
+  }
+
+.placeholder {
+    width: 100px;
+    height: 100px;
+}
+
+.links {
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.subheader {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    
+    
+}
+
+
+.s_right, .s_left {
+    max-width: 400px;
+    
+} 
+
+
+.hero_text {
+    font-size: 48px;
+    font-weight: 900px;
+    
+}
+
+.hero_secondary_text {
+    font-size: 18px;
+    
+}
+
+.button {
+    color: white;
+    background: #3882F6;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+
+}
+
+.section_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 20px;
+    margin-bottom: 80px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 150px;
+}
+
+.quote-container {
+    
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    background-color: #e5e7eb;
+    
+    
+}
+
+
+
+.quote {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+    
+}
+
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.section3-wrapper {
+
+    margin: 40px;
+
+}
+
+.section3-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+
+.button2 {
+    color: white;
+    background: #3882F6;
+    border-radius: 8px;
+    border:#eee
+    padding: 5px;
+}
