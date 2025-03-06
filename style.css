@@ -1,9 +1,14 @@
 body {
     margin: 0;
+    padding: 0;
+    
     font-family: Roboto, sans-serif;
     background: #eee;
-    min-height: 200vh;
+    min-height: 190vh;
 }
+
+
+/* HEADER SECTION! */
 
 .header {
     background-color: #1f2937;
@@ -12,16 +17,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 8px;
-}
-
-img {
-    width: 300px;
-    height: 180px;
-  }
-
-.placeholder {
-    width: 100px;
-    height: 100px;
 }
 
 .links {
@@ -45,23 +40,43 @@ ul {
     padding: 0;
 }
 
+/* SECTION ONE! Some random information and images!! */
+
+img {
+    width: 300px;
+    height: 180px;
+    
+  }
+
+.image-txt {
+    color: #39393a;
+    text-align: justify;
+}
+
+.placeholder {
+    width: 170px;
+    height: 170px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.info {
+    max-width: 170px;
+  }
+
 .subheader {
     background-color: #1f2937;
     color: white;
     display: flex;
     justify-content: center;
     gap: 15px;
-    padding: 20px;
-    
-    
+    padding: 20px;  
 }
-
 
 .s_right, .s_left {
     max-width: 400px;
     
 } 
-
 
 .hero_text {
     font-size: 48px;
@@ -71,7 +86,7 @@ ul {
 
 .hero_secondary_text {
     font-size: 18px;
-    
+    text-align: justify;
 }
 
 .button {
@@ -80,7 +95,8 @@ ul {
     border-radius: 8px;
     border: none;
     padding: 5px;
-
+    width: 120px;
+    margin-top: 5px;
 }
 
 .section_title {
@@ -91,31 +107,31 @@ ul {
     font-size: 36px;
     color: #1f2937;
     margin: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .section1 {
     display: flex;
     justify-content: center;
     gap: 52px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
+
+
+/* SECTION TWO! The quote and the author. */
 
 .quote-container {
     
     justify-content: center;
     text-align: center;
     display: flex;
-    padding: 20px;
+    padding: 100px;
     background-color: #e5e7eb;
-    
-    
 }
 
 
-
 .quote {
-    max-width: 600px;
+    max-width: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,6 +142,7 @@ ul {
     font-style: italic;
     color: #1f2937;
     font-size: 36px;
+    text-align: justify;
     
 }
 
@@ -134,23 +151,10 @@ ul {
     align-self: flex-end;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 52px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #1f2937;
-    color: white;
-}
+/* SECTION THREE! Call to action and the sign up button. */
 
 .section3-wrapper {
-
     margin: 40px;
-
 }
 
 .section3-container {
@@ -160,13 +164,37 @@ ul {
     align-items: center;
     width: 50%;
     margin: auto;
+    margin-top: 50px;
     padding: 30px;
+    border-radius: 8px;
+    color: white;  
+}
+
+.section3-header {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .button2 {
     color: white;
+    font-weight: 600;
     background: #3882F6;
-    border-radius: 8px;
-    border:#eee
+    border-radius: 12px;
+    border:2px solid white;
     padding: 5px;
+    width: 150px;
 }
+
+/* FOOTER SECTION! */
+
+.footer {
+    position: relative;
+    padding: 30px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+}
+
